@@ -1,0 +1,38 @@
+
+
+
+.container{
+  width: 1060px;
+  height: 500px;
+  position: relative;
+  margin: 0 auto;
+  @media  screen and (min-height:720px) and (max-height: 800px) {
+    margin-top:25px;
+  }
+  @media  screen and (min-height:820px) and (max-height: 900px) {
+    margin-top:50px;
+  }
+  @media  screen and (min-height:920px) and (max-height: 1000px) {
+    margin-top:75px;
+  }
+  @media  screen and (min-height:1020px)  {
+    margin-top:100px;
+  }
+
+  .el-form-item{
+   margin-bottom: 20px;
+  }
+  form{
+    width:500px;
+    margin-top: 30px;
+    .editor{
+      margin-left: -70px;
+    }
+
+  }
+}
+
+
+
+
+
